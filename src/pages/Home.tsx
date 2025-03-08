@@ -187,7 +187,7 @@ export default function Home() {
         </div>
         <div className="text-center mt-12">
         <button 
-  onClick={() => window.location.href = '/services'}
+  onClick={() => window.location.href = '#/services'}
   className="px-6 py-3 bg-gray-800 text-white text-lg font-semibold rounded-lg hover:bg-gray-700 transition"
 >
   Show More
@@ -219,7 +219,7 @@ export default function Home() {
         </div>
         <div className="text-center mt-12">
         <button 
-  onClick={() => window.location.href = '/products'}
+  onClick={() => window.location.href = '#/products'}
   className="px-6 py-3 bg-gray-800 text-white text-lg font-semibold rounded-lg hover:bg-gray-700 transition"
 >
   Show More
